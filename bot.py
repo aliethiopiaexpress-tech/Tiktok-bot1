@@ -20,7 +20,7 @@ logging.basicConfig(
 )
 log = logging.getLogger("tiktok-bot")
 
-TOKEN = 8631682312:AAEg5mv3QEOuyyJ_4T2vYtJoy25ZEUjtdeE"]
+TOKEN = os.environ["8631682312:AAEg5mv3QEOuyyJ_4T2vYtJoy25ZEUjtdeE"]
 MAX_BYTES = 50 * 1024 * 1024  # Telegram bot upload limit
 URL_RE = re.compile(r"https?://(?:[\w-]+\.)?tiktok\.com/\S+", re.I)
 
